@@ -1,0 +1,26 @@
+body {
+  background-color: #333;
+  border-color: #333;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.box {
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover{
+  background-color: rgb(194, 168, 55);
+}
+.icon {
+  size: 222 px;
+  font-size: 35px;
+  color: #ffffff;
+}
